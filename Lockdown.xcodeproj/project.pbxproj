@@ -81,7 +81,6 @@
 		7D7C6AD31C7A2E07005616ED /* NSApplicationKeyEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSApplicationKeyEvents.m; sourceTree = "<group>"; };
 		7D7C6AD41C7A2E07005616ED /* NSApplicationKeyEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSApplicationKeyEvents.h; sourceTree = "<group>"; };
 		7DB0FCA31C7D6A2400D2CE0D /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
-		7DB0FCA51C7D6A9500D2CE0D /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = ../Utilities.h; sourceTree = "<group>"; };
 		CD4EB7EF1C563EBF00630462 /* Lockdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lockdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4EB7F21C563EBF00630462 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD4EB7F31C563EBF00630462 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -165,7 +164,6 @@
 				7D1280B51C6C73FB0088155D /* Exception.m */,
 				7D7C6AD31C7A2E07005616ED /* NSApplicationKeyEvents.m */,
 				7D7C6AD41C7A2E07005616ED /* NSApplicationKeyEvents.h */,
-				7DB0FCA51C7D6A9500D2CE0D /* Utilities.h */,
 				7D10A6371C83D5DC00F6F7CA /* Utilities.h */,
 				7DB0FCA31C7D6A2400D2CE0D /* Utilities.m */,
 				7D1280B31C6C6AF00088155D /* 3rd-Party */,
@@ -256,7 +254,7 @@
 		CD4EB7E71C563EBF00630462 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Patrick Wardle";
 				TargetAttributes = {
 					CD4EB7EE1C563EBF00630462 = {
@@ -380,7 +378,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -417,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -427,7 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Objective-See, LLC (VBG97UB4TA)";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -436,10 +434,10 @@
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = Lockdown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.objective-see.Lockdown";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.11;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -447,7 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Developer ID Application: Objective-See, LLC (VBG97UB4TA)";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -456,10 +454,10 @@
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = Lockdown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.objective-see.Lockdown";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx10.11;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
